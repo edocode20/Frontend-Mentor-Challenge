@@ -1,0 +1,79 @@
+body {
+  font-family: 'Big Shoulders Display', cursive, 'Lexend Deca', sans-serif;
+}
+
+.container {
+  margin: 5% 10px;
+}
+
+.row{
+  border-radius: 35px;
+
+}
+
+img {
+  padding: 30px 30px;
+}
+
+h1 {
+  padding: 30px 30px;
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+}
+
+p {
+  padding: 30px 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+}
+
+.learn {
+  padding: 15px 35px;
+  margin: 30px 30px;
+  color: white;
+  border-radius: 35px;
+  border: 1px solid white;
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.learn-sedan {
+  color: hsl(31, 77%, 52%);
+}
+
+.learn-sedan:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+
+.learn-suv {
+  color: hsl(184, 100%, 22%)
+}
+
+.learn-suv:hover{
+  background-color: hsl(184, 100%, 22%);
+   color: white;
+}
+
+.learn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.learn-luxury:hover{
+  background-color: hsl(179, 100%, 13%);
+   color: white;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 35px 0 0 35px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius:0 35px 35px 0;
+}
