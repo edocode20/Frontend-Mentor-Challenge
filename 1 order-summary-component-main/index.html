@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- bootsrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+</head>
+
+<body class="background">
+
+
+  <section class="dialog-box">
+    <img src="images/pattern-background-desktop.svg" alt="background image" class="background-image">
+
+    <div class="container big-box">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <img class="hero-img" src="images/illustration-hero.svg" alt="hero picture">
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <h1 class="order-summary"> <strong>Order Summary</strong></h1>
+          <p class="order-description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="container pricing">
+            <div class="row price-style">
+              <div class="col-2">
+                <img src="images/icon-music.svg" alt="music" class="music">
+              </div>
+              <div class="col-7 ">
+                <div class="row annual ">
+                  <h1 class="annual-plan">Annual Plan</h1>
+                </div>
+                <div class="row price-per-year">
+                  <p >$59.99/year</p>
+                </div>
+              </div>
+
+              <div class="col-2 change">
+                <a href="#" class="change hover">Change</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="row justify-content-center payment">
+          <div class="col-10">
+            <div class="d-grid gap-1">
+              <button class="btn btn-primary btn-lg payment-btn hover" type="button">Proceed to Payment
+              </button>
+
+
+            </div>
+          </div>
+
+          <div class="row justify-content-center cancel">
+            <div class="col-4">
+
+              <a href="#" class="hover"> Cancel Order</a>
+            </div>
+          </div>
+  </section>
+
+
+</body>
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">edocode</a>.
+  </div>
+</footer>
+
+</html>
