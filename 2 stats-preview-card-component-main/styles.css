@@ -1,0 +1,93 @@
+html {
+  background-color: hsl(233, 47%, 7%);
+}
+
+section {
+  background-color: hsl(233, 47%, 7%);
+  font-family: 'Inter', sans-serif, 'Lexend Deca', sans-serif;
+}
+
+.container {
+  background-color: hsl(244, 38%, 16%);
+  margin: 10% 40%;
+  width: 60%;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: lighter;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.left-details {
+  padding: 10px 0 10px 15px;
+}
+
+.title {
+  padding: 50px 50px 10px;
+  font-size: 15px;
+}
+
+.title-detail {
+  padding: 20px 50px;
+}
+
+.stat {
+  padding: 20px 5px 10px 15px;
+  text-align: center;
+}
+
+.right-details {
+  padding-right: 0 !important;
+  width: 100%;
+  position: relative;
+}
+
+.cover-photo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+#overlay {
+  background-color: hsl(277, 64%, 61%);
+  width: 100%;
+  opacity: 60%;
+}
+
+@media only screen and min-width: 375px {
+  .cover-photo {
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+  }
+
+
+
+
+  .stat {
+    display: grid;
+  }
+
+  .col-4 {
+    display: inline-block;
+    padding: 10px 10px;
+    height: 10%;
+  }
+
+  .container {
+    width: 70%;
+  }
+}
