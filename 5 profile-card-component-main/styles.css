@@ -1,0 +1,111 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.top-image {
+  position: absolute;
+  z-index: -1;
+  left: -30%;
+  top: -60%;
+}
+
+.bottom-image {
+  position: absolute;
+  z-index: -1;
+  right: -40%;
+  bottom: -35%;
+}
+
+.pattern-image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.big-container {
+  margin: 15% 30%;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.upper{
+  border-radius: 35px 35px 0 0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  left: 40%;
+  top: -30%;
+}
+
+.info {
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(0, 0%, 59%)
+}
+
+.box {
+  background-color: white;
+  padding: 0;
+}
+
+.small-box {
+  background-color: white;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow: visible;
+}
+
+.numbers {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0px;
+}
+
+.numbers-detail {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  padding-top: 0px;
+}
+
+.left-lower {
+  border-radius: 0 0 0 35px;
+}
+
+.right-lower {
+  border-radius: 0 0 35px 0;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .top-image {
+    position: absolute;
+    z-index: -1;
+    left: -700px;
+  }
+
+  .big-container{
+    top:200px;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    left: 30%;
+    top: -30%;
+  }
+
+  .bottom-image {
+    position: absolute;
+    z-index: -1;
+    right: -700px;
+    bottom: -400px;
+  }
+
+}
